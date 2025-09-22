@@ -5,7 +5,7 @@ This repository contains a Shiny app that performs **Independent Component Analy
 
 ---
 
-## 🚀 Pipeline Overview
+## Pipeline Overview
 
 The pipeline runs:
 
@@ -18,7 +18,7 @@ The pipeline runs:
 
 ---
 
-## 📥 Input files
+## Input files
 
 - **Expression profile (required)**: genes × samples table (TSV/CSV).  
 - **Genomic mapping file (optional)**: maps probes → Entrez/symbol + chr/bp.  
@@ -30,7 +30,7 @@ The pipeline runs:
 
 ---
 
-## ⚙️ What the app does
+## ️ What the app does
 
 - Deduplicates IDs (randomly keeps one if duplicated).  
 - Converts probes/symbols → Entrez IDs if mapping is provided.  
@@ -39,7 +39,7 @@ The pipeline runs:
 
 ---
 
-## 📤 Outputs
+## Outputs
 
 All results are saved under `Results/` and `Data/`.  
 
@@ -54,7 +54,7 @@ All results are saved under `Results/` and `Data/`.
 
 ---
 
-## ▶️ Running the app
+## ️Running the app
 
 Clone this repo and run in R:
 
